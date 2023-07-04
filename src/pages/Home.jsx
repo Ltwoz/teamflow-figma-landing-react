@@ -33,7 +33,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="mt-4 md:mt-12">
-                    <img src="/src/assets/graph1.png" alt="graph1" className="w-full" />
+                    <img src="graph1.png" alt="graph1" className="w-full" />
                 </div>
 
                 <div className="mt-8 md:mt-12 w-[318px] md:w-[920px] flex flex-col items-center space-y-4 md:space-y-6">
@@ -43,20 +43,20 @@ const HomePage = () => {
                         best teams
                     </h3>
                     <div className="w-full flex flex-row items-center justify-between">
-                        <img src="/src/assets/google.png" alt="google" className="scale-[.7] md:scale-100" />
-                        <img src="/src/assets/airbnb.png" alt="airbnb" className="scale-[.7] md:scale-100" />
-                        <img src="/src/assets/facebook.png" alt="facebook" className="scale-[.7] md:scale-100" />
-                        <img src="/src/assets/hubspot.png" alt="hubspot" className="scale-[.7] md:scale-100" />
-                        <img src="/src/assets/slack.png" alt="slack" className="hidden md:block scale-[.7] md:scale-100" />
+                        <img src="google.png" alt="google" className="scale-[.7] md:scale-100" />
+                        <img src="airbnb.png" alt="airbnb" className="scale-[.7] md:scale-100" />
+                        <img src="facebook.png" alt="facebook" className="scale-[.7] md:scale-100" />
+                        <img src="hubspot.png" alt="hubspot" className="scale-[.7] md:scale-100" />
+                        <img src="slack.png" alt="slack" className="hidden md:block scale-[.7] md:scale-100" />
                     </div>
                 </div>
             </section>
 
             <section className="flex flex-col items-center bg-[#FBFAFE] border-y border-[#F0EBFA] py-8 md:py-14 px-4 md:px-0">
                 <div className="max-w-[1110px] w-full mx-auto flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-20">
-                    <img src="/src/assets/extimeline.png" alt="timeline" />
+                    <img src="extimeline.png" alt="timeline" />
                     <div className="flex flex-col text-center md:text-start">
-                        <div className="flex flex-col py-6 px-8 rounded-tr-lg rounded-tl-lg md:rounded-br-lg border-b-8 md:border-l-8 border-transparent hover:border-[#794CFF] hover:bg-[#F6F3FC]">
+                        <div className="flex flex-col py-6 px-8 rounded-tr-lg rounded-tl-lg md:rounded-tl-none md:rounded-br-lg border-b-8 md:border-b-0 md:border-l-8 border-transparent hover:border-[#794CFF] hover:bg-[#F6F3FC]">
                             <h4 className="font-semibold text-lg text-[#35414B]">
                                 Survey your team
                             </h4>
@@ -66,7 +66,7 @@ const HomePage = () => {
                             </p>
                         </div>
                         <hr />
-                        <div className="flex flex-col py-6 px-8 rounded-tr-lg rounded-tl-lg md:rounded-br-lg border-b-8 md:border-l-8 border-transparent hover:border-[#794CFF] hover:bg-[#F6F3FC]">
+                        <div className="flex flex-col py-6 px-8 rounded-tr-lg rounded-tl-lg md:rounded-tl-none md:rounded-br-lg border-b-8 md:border-b-0 md:border-l-8 border-transparent hover:border-[#794CFF] hover:bg-[#F6F3FC]">
                             <h4 className="font-semibold text-lg text-[#35414B]">
                                 Resolve issues quickly
                             </h4>
@@ -76,7 +76,7 @@ const HomePage = () => {
                             </p>
                         </div>
                         <hr />
-                        <div className="flex flex-col py-6 px-8 rounded-tr-lg rounded-tl-lg md:rounded-br-lg border-b-8 md:border-l-8 border-transparent hover:border-[#794CFF] hover:bg-[#F6F3FC]">
+                        <div className="flex flex-col py-6 px-8 rounded-tr-lg rounded-tl-lg md:rounded-tl-none md:rounded-br-lg border-b-8 md:border-b-0 md:border-l-8 border-transparent hover:border-[#794CFF] hover:bg-[#F6F3FC]">
                             <h4 className="font-semibold text-lg text-[#35414B]">
                                 Plan your 1-on-1s
                             </h4>
@@ -86,7 +86,7 @@ const HomePage = () => {
                             </p>
                         </div>
                         <hr />
-                        <div className="flex flex-col py-6 px-8 rounded-tr-lg rounded-tl-lg md:rounded-br-lg border-b-8 md:border-l-8 border-transparent hover:border-[#794CFF] hover:bg-[#F6F3FC]">
+                        <div className="flex flex-col py-6 px-8 rounded-tr-lg rounded-tl-lg md:rounded-tl-none md:rounded-br-lg border-b-8 md:border-b-0 md:border-l-8 border-transparent hover:border-[#794CFF] hover:bg-[#F6F3FC]">
                             <h4 className="font-semibold text-lg text-[#35414B]">
                                 Track your progress
                             </h4>
@@ -107,7 +107,7 @@ const HomePage = () => {
                     <div className="flex flex-col md:flex-row space-y-[48px] md:space-y-0 md:space-x-[115px]">
                         <div className="flex flex-col items-center md:items-start text-center md:text-start w-full md:w-80">
                             <img
-                                src="/src/assets/icon1.png"
+                                src="icon1.png"
                                 alt=""
                                 className="w-[64px] h-[64px]"
                             />
@@ -121,7 +121,7 @@ const HomePage = () => {
                         </div>
                         <div className="flex flex-col items-center md:items-start text-center md:text-start w-full md:w-80">
                             <img
-                                src="/src/assets/icon2.png"
+                                src="icon2.png"
                                 alt=""
                                 className="w-[64px] h-[64px]"
                             />
@@ -135,7 +135,7 @@ const HomePage = () => {
                         </div>
                         <div className="flex flex-col items-center md:items-start text-center md:text-start w-full md:w-80">
                             <img
-                                src="/src/assets/icon3.png"
+                                src="icon3.png"
                                 alt=""
                                 className="w-[64px] h-[64px]"
                             />
@@ -151,7 +151,7 @@ const HomePage = () => {
                     <div className="flex flex-col md:flex-row space-y-[48px] md:space-y-0 md:space-x-[115px]">
                         <div className="flex flex-col items-center md:items-start text-center md:text-start w-full md:w-80">
                             <img
-                                src="/src/assets/icon4.png"
+                                src="icon4.png"
                                 alt=""
                                 className="w-[64px] h-[64px]"
                             />
@@ -165,7 +165,7 @@ const HomePage = () => {
                         </div>
                         <div className="flex flex-col items-center md:items-start text-center md:text-start w-full md:w-80">
                             <img
-                                src="/src/assets/icon5.png"
+                                src="icon5.png"
                                 alt=""
                                 className="w-[64px] h-[64px]"
                             />
@@ -179,7 +179,7 @@ const HomePage = () => {
                         </div>
                         <div className="flex flex-col items-center md:items-start text-center md:text-start w-full md:w-80">
                             <img
-                                src="/src/assets/icon6.png"
+                                src="icon6.png"
                                 alt=""
                                 className="w-[64px] h-[64px]"
                             />
@@ -210,7 +210,7 @@ const HomePage = () => {
                             Get started free
                         </button>
                     </div>
-                    <img src="/src/assets/graph2.png" alt="" className="w-full" />
+                    <img src="graph2.png" alt="" className="w-full" />
                 </div>
             </section>
             <section className="flex flex-col items-center py-14 md:py-[100px]">
@@ -228,7 +228,7 @@ const HomePage = () => {
                 <div className="mt-10 md:mt-12 pt-6 md:w-[938px] flex justify-around items-center px-10 md:px-0">
                     <div className="flex flex-col md:flex-row items-center md:space-x-4 w-fit">
                         <img
-                            src="/src/assets/jorge.png"
+                            src="jorge.png"
                             alt=""
                             className="w-12 h-12"
                         />
@@ -241,7 +241,7 @@ const HomePage = () => {
                     </div>
                     <div className="hidden md:flex space-x-4 w-fit">
                         <img
-                            src="/src/assets/francisco.png"
+                            src="francisco.png"
                             alt=""
                             className="w-12 h-12"
                         />
@@ -256,7 +256,7 @@ const HomePage = () => {
                     </div>
                     <div className="hidden md:flex space-x-4 w-fit">
                         <img
-                            src="/src/assets/beth.png"
+                            src="beth.png"
                             alt=""
                             className="w-12 h-12"
                         />
@@ -277,12 +277,12 @@ const HomePage = () => {
                     <div className="flex space-x-6">
                         <a href="#">
                             <img
-                                src="/src/assets/google-play-white.png"
+                                src="google-play-white.png"
                                 alt=""
                             />
                         </a>
                         <a href="#">
-                            <img src="/src/assets/ios-white.png" alt="" />
+                            <img src="ios-white.png" alt="" />
                         </a>
                     </div>
                 </div>

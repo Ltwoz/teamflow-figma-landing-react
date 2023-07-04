@@ -24,10 +24,10 @@ const Footer = () => {
                 <div className="flex flex-col space-y-5">
                     <h4 className="font-semibold">Install App</h4>
                     <a href="#">
-                        <img src="/src/assets/google-play-black.png" alt="" />
+                        <img src="google-play-black.png" alt="" />
                     </a>
                     <a href="#">
-                        <img src="/src/assets/ios-black.png" alt="" />
+                        <img src="ios-black.png" alt="" />
                     </a>
                 </div>
             </div>
