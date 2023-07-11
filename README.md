@@ -2,7 +2,7 @@
 
 A landing page build from figma design using `React`.
 
-![Demo image](image.png)
+![Demo image](screenshot.png)
 
 View [Demo](teamflow-kylix.vercel.app) here.
 
