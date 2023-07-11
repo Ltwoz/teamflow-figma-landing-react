@@ -27,7 +27,7 @@ const Navbar = () => {
                         href="/"
                         className="text-2xl tracking-tight font-josefin"
                     >
-                        team.flow
+                        team<span className="text-[#794CFF] text-bold">.</span>flow
                     </a>
                 </div>
                 <div
@@ -74,10 +74,18 @@ const Navbar = () => {
                         id="nav-items-group"
                         className="flex flex-col items-start font-medium"
                     >
-                        <a href="#" className="py-2">How it Works</a>
-                        <a href="#" className="py-2">Products</a>
-                        <a href="#" className="py-2">Pricing</a>
-                        <a href="#" className="py-2">Resources</a>
+                        <a href="#" className="py-2">
+                            How it Works
+                        </a>
+                        <a href="#" className="py-2">
+                            Products
+                        </a>
+                        <a href="#" className="py-2">
+                            Pricing
+                        </a>
+                        <a href="#" className="py-2">
+                            Resources
+                        </a>
                     </div>
                 </div>
             )}
